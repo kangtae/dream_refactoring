@@ -19,7 +19,7 @@ export function printOwing(invoice) {
   );
 
   //print details
-  console.log(`name: ${invoice.customer}`);
+  console.log(`name1: ${invoice.customer}`);
   console.log(`amount: ${outstanding}`);
   console.log(`due: ${invoice.dueDate.toLocaleDateString()}`);
 }
