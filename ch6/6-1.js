@@ -15,7 +15,7 @@ export function printOwing(invoice) {
   invoice.dueDate = new Date(
     today.getFullYear(),
     today.getMonth(),
-    today.getDate() + 30
+    today.getDate() + 31
   );
 
   //print details
