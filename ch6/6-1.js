@@ -2,7 +2,7 @@ export function printOwing(invoice) {
   let outstanding = 0;
 
   console.log('***********************');
-  console.log('**** Customer Owes ****');
+  console.log('**** Customer Owes1 ****');
   console.log('***********************');
 
   // calculate outstanding
